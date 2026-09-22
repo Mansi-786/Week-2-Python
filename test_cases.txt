@@ -1,0 +1,61 @@
+STUDENT GRADE CALCULATOR - TEST CASES
+======================================
+
+Test Case 1: Normal B Grade
+Input:
+Student Name: Priya
+Marks: 85
+
+Expected Result:
+Grade: B
+Message: Very Good! Keep it up!
+
+Actual Result:
+Grade: B
+Message: Very Good! Keep it up!
+
+Status: PASS
+
+
+Test Case 2: A Grade
+Input:
+Student Name: Priya
+Marks: 95
+
+Expected Result:
+Grade: A
+Message: Excellent work! Keep shining!
+
+Actual Result:
+Grade: A
+Message: Excellent work! Keep shining!
+
+Status: PASS
+
+
+Test Case 3: Invalid Marks
+Input:
+Student Name: Priya
+Marks: 150
+
+Expected Result:
+Invalid marks message should be displayed.
+
+Actual Result:
+Invalid marks! Please enter a value between 0 and 100.
+
+Status: PASS
+
+
+Test Case 4: Invalid Input
+Input:
+Student Name: Priya
+Marks: abc
+
+Expected Result:
+Invalid input message should be displayed.
+
+Actual Result:
+Invalid input! Please enter a number.
+
+Status: PASS
